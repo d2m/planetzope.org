@@ -1,0 +1,412 @@
+  
+  
+  
+body {
+    background-color: White;
+    color: Black;
+    padding: 0;
+    margin-top: 0;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:2em;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+p, td {
+  xfont-family: Verdana, sans-serif;
+}
+
+pre {
+    font-size: 120%;
+    padding: 1em;
+    border: 1px solid #8cacbb;
+    color: Black;
+    background-color: #dee7ec;
+    overflow: auto;
+}
+
+code {
+    font-size: 120%;
+    color: Black;
+    background-color: #dee7ec;
+}
+
+h1 {
+    font-family:  Verdana, sans-serif;
+    font-size: 3ex;
+    font-weight:  bold;
+    color: #333366;
+}
+
+h2 {
+    xfont-family:  Verdana, sans-serif;
+    xfont-size:  2.5ex;
+    font-weight:  bold;
+    color: #333366;
+}
+
+h3 {
+    xfont-family:  Verdana, sans-serif;
+    xfont-size:  2.25ex;
+    font-weight:  bold;
+    color: #333366;
+}
+
+h4 {
+    xfont-family:  Verdana, sans-serif;
+    xfont-size:  2.125ex;
+    font-style: italic;
+    color: #333366;
+}
+
+a:link {
+    /* text-decoration: none; */
+    color: #0033cc;
+}
+
+a:visited {
+    /* text-decoration: none; */
+    color: #0033cc;
+}
+
+a:active {
+    /* color: #336699;
+    text-decoration: none; */
+}
+
+a:hover {
+    /* text-decoration: none;
+    color: #5700ff; */
+}
+
+table {
+    border: 0px;
+}
+
+td {
+  vertical-align: top;
+  font-size: 80%;
+}
+
+
+#Masthead {
+    background-color: #ffd700;
+    border: 1pt;
+    border-color: #336699;
+    padding: none;
+    cell-spacing: none;
+    width: 100%;
+}
+
+#PortalLogo {
+    background-color: transparent;
+    vertical-align: middle;
+    width: 15%;
+    height: 32px;
+}
+
+#PortalTitle {
+    background-color:  transparent;
+    color: White;
+    text-align: left;
+    vertical-align: middle;
+    font-family:  Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+    width: 50%;
+    height: 32px;
+}
+
+#NavBar {
+    background-color:  transparent;
+    color: #FFFFFF;
+    text-align: right;
+    vertical-align: middle;
+    font-family:  Verdana, sans-serif;
+    font-size: 80%;
+    height: 32px;
+}
+
+#NavBar a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#NavBar a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#NavBar a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#NavBar a:hover {
+    color: #5700ff;
+    text-decoration: none;
+}
+
+#MemberActionsBox {
+    color: White;
+    background-color: #a4ff00;
+    border-top: solid #99ccdd;
+    border-top-width: 1px;
+    border-bottom: solid #336677;
+    border-bottom-width: 1px;
+}
+
+.ContextActionsBox {
+    border-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ContextActionsRow {
+    color: White;
+    background-color: #ff5a00;
+    margin: 0px;
+}
+
+.ContextActionsRow td {
+    padding-left: 1ex;
+    margin: 0px;
+    border-top: 1px solid white;
+}
+
+
+.ActionTitle {
+    color: #ffffff;
+    background-color: #ff0026;
+    /* background-image: url(/pattern.gif); */
+    font-family:  Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 70%;
+    font-style: italic;
+}
+
+.ActionLink {
+    color: Black;
+    font-family:  Verdana, sans-serif;
+    font-size: 70%;
+}
+
+
+.ActionLink a:link {
+    color: White;
+    text-decoration:  none;
+    font-weight: bold;
+}
+
+.ActionLink a:visited {
+    color: White;
+    text-decoration:  none;
+    font-weight: bold;
+}
+
+.ActionLink a:active {
+    color: White;
+    text-decoration:  none;
+    font-weight: bold;
+}
+
+.ActionLink a:hover {
+    color: #5700ff;
+    text-decoration : none;
+    font-weight: bold;
+}
+
+.ObjectStatus {
+    font-style: italic;
+}
+
+#ForematterCell {
+    margin-top: 20px;
+}
+
+#DesktopStatusBar {
+    color: Red;
+    background-color: White;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 8pt;
+}
+
+#DesktopTitle {
+    margin-top: 8pt;
+}
+
+#DesktopDescription {
+    font-style: italic;
+    margin-left: 20pt;
+    margin-right: 8pt;
+}
+
+#Desktop {
+    margin-left: 8pt;
+    margin-right: 8pt;
+}
+
+#ContentByline {
+    font-size: 90%;
+    font-style: italic;
+    border-bottom: 1px dotted #ccc;
+    
+}
+
+#DiscussionAbove {
+    margin-left: 16pt;
+    margin-right: 8pt;
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+    font-style: italic;
+}
+
+table.FormLayout {
+    width: 80%;
+}
+
+table.FormLayout tr {
+    vertical-align: top;
+}
+
+table.FormLayout tr th.TextField {
+    vertical-align: top;
+    color: #000000;
+}
+
+table.FormLayout tr td.TextField {
+    vertical-align: top;
+    color: #000000;
+}
+
+table.FormLayout th {
+    text-align: right;
+    font-size: 70%;
+    font-weight: bold;
+}
+
+table.FormLayout dl.FieldHelp dd {
+    font-size: 80%;
+    color: #000000;
+}
+
+table.FormLayout td.ListName {
+    background-color:  #336699;
+    color: #FFFFFF;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+table.FormLayout td.ListDefinition {
+    font-style: italic;
+    color: #000000;
+}
+
+table.ContentsList tr td {
+  /* font-size: 100%; */
+}
+
+table.ContentsList tr td img {
+    border: 0;
+}
+
+table.SearchResults {
+    width: auto;
+}
+
+table.SearchResults tr th {
+    text-align: left;
+}
+
+table.SearchResults tr td img {
+    border: 0;
+}
+
+table.Wizard {
+    width: auto;
+}
+
+table.Wizard tr {
+    vertical-align: top;
+}
+
+table.Wizard tr th {
+    text-align: right;
+}
+
+div.NewsBar {
+    text-align: right;
+}
+
+table.NewsItems {
+    border: 0;
+}
+
+
+td.NewsBorder {
+    background-color: #333366;
+}
+
+td.NewsListing {
+    background-color: #666699;
+    color:  #FFFFFF;
+    font-weight: bold;
+    padding-left: 1ex;
+    padding-right: 1ex;
+}
+
+a.NewsListing{
+    color:  #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+a.NewsListing:visited{
+    color:  #FFFFFF;
+}
+
+
+a.NewsListing:link{
+    color:  #FFFFFF;
+}
+
+a.NewsListing:hover{
+    color:  #99FFFF;
+}
+
+
+.NewsDateline {
+    background-color:  #336699;
+    color:  #FFFFFF;
+}
+
+td.NewsTitle {
+    background-color: #666699;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 70%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.NewsItemRow {
+    background-color: #f0f9ff;
+    color: #333;
+    font-size: 82%;
+}
+.NewsItemRow td {
+    padding-left: 1ex;
+    padding-right: 1ex;
+    border-bottom: 1px solid white;
+}
+
+p.NewsHeadline {
+    background-color:  #336699;
+}
+
+
+

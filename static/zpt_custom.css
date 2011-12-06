@@ -1,0 +1,77 @@
+  
+.PlanetZope {
+  margin:0; padding:0;
+  font-family: verdana, arial, helvetica, sans-serif; 
+  font-size:90%;
+}  
+  
+
+.UserName {
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 1ex;
+}
+.CustomNewsByLine {
+    background-color:  transparent;
+    color:  #666699;
+    font-size: 10px;
+    text-align: right;
+    vertical-align: top;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    padding-bottm: 1ex;
+    border-left: 1px solid #666699;
+    border-bottom: 1px solid #666699;
+}
+.CustomNewsLeadin {
+}
+
+.CustomNewsLeadin p{
+    margin: 0px;
+    padding-left: 1ex;
+    padding-right: 1ex;
+}
+.SubjectsTitle {
+    font-weight:bold;
+    background-color:#666699;
+    color:white;
+    font-style: italic;
+    font-size: 70%;
+    padding: 3px;
+    padding-left: 1ex;
+    border-top: 1px solid white;
+}
+.SubjectsLinks {
+    padding-left:1ex;
+    padding-top:3px;
+    padding-bottom:1ex;
+    background-color:#f0f9ff;
+    font-size: 85%;
+    /* border-top:1px solid white; */
+    border-right:1px solid #666699;
+}
+.Subjects {
+    font-size: 85%;
+    color: #666666;
+}
+.Subjects a:link, .Subjects a:visited, .Subjects a:active, .Subjects a:hover {
+    color: #666666;
+}
+
+input, textarea, select {
+	border: 1px solid Silver;
+}
+
+.NewsRow {
+    color: White;
+    background-color: #333366;
+    margin: 0px;
+}
+
+.NewsRow td {
+    margin: 0px;
+    border-top: 1px solid white;
+}
+
